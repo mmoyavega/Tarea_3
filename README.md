@@ -1,4 +1,4 @@
-# Tarea_3
+##Tarea_3##
 
 #Respuesta a la pregunta 1#
 Al reemplazar un 5 por un cero me no me entrega ningun valor ya que en la posicion 0 en la lista no posee ningun valor.
