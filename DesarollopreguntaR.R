@@ -75,16 +75,16 @@ quorum<-(plebiscito*0.5)+1
 total_votos<-votos_no+votos_si
 
 if((total_votos<quorum)&(votos_si>=0.3*plebiscito))
-{print("EL SI GANA")
+  {print("EL SI GANA")
 } else if((total_votos<quorum)&(votos_no>=0.3*plebiscito))
-{print("EL NO GANA")
+  {print("EL NO GANA")
 } else if((total_votos<quorum)&((votos_no<0.3*plebiscito)&(votos_si<0.3*plebiscito)))
-{print("EL NO GANA")
+  {print("EL NO GANA")
 } else if(total_votos>quorum&&votos_no<votos_si)
-{print("EL SI GANA")
+  {print("EL SI GANA")
 } else if(total_votos>quorum&&votos_no>votos_si) {
   Print("EL NO GANA")} else if (total_votos>quorum&&votos_no==votos_si)
-  {print("EL SI GANA")
+    {print("EL SI GANA")
   } else {"OTRO"}
 
 #Pregunta 10#
